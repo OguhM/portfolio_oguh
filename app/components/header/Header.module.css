@@ -1,0 +1,45 @@
+.header{
+  position: fixed;
+  background: var(--background);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  z-index: 2;
+}
+
+.imgHeader{
+  width: 4.844vw;
+  height: 1.852vh;
+}
+
+@media screen and (min-width: 992px) {
+  .imgHeader{
+    width: 10.333vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imgHeader{
+    width: 12.109vw;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .imgHeader{
+    width: 16.146vw;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .imgHeader{
+    width: 21.136vw;
+    height: auto;
+  }
+}
