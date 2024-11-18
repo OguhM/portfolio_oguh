@@ -64,6 +64,11 @@ export default function Home() {
           <p className={styles.description} ref={descriptionRef}>I'm Mouysset Hugo, a freelance interface designer and hard surface modeler based in France. Welcome to my online space, where I focus on crafting unique landing pages, interfaces,  websites and 3D models.</p>
         </div>
         <Projets
+          imageSrc="/medias/laporte_export_webl1.png"
+          imageAlt="laporte"
+          projectInfo="[ Hero Section Concept - La Porte Académie]"
+        />
+        <Projets
           imageSrc="/medias/workflowgen1.png"
           imageAlt="Description of Project 2"
           projectInfo="[ Landing Page - WorkflowGen - Creative direction : ANNEXE CONTRE INTUITIV ]"
